@@ -3,8 +3,11 @@
 
  - Create-react-app
  - Configured TailwindCSS
+ - Header
+ - Login form
+ - Sign Up form
 
-#Features
+# Features
   - Login/signup form
   - Redirect to browse page
   - Browse after authentication
