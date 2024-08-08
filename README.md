@@ -34,6 +34,11 @@
  - Build Movie Card
  - TMDB Img CDN URL
  - usePopularMovies Custom Hooks
+ - GPT Search Features
+ - GPT Search page
+ - GPT Search Bar
+ - Multi Language features in our app
+ - Integrate GPT API
 
 
 
