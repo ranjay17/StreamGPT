@@ -1,9 +1,10 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { addPopularMovies } from "../utils/moviesSlice";
 import { API_OPTIONS } from "../utils/constants";
 
 const usePopularMovies = () =>{
+  const popularMovies = useSelector(store=> store.movies.popularMovies);
     // fetch data from TMDB API and update store
     const dispatch = useDispatch();
     const getPopularMovies = async() =>{
@@ -12,7 +13,9 @@ const usePopularMovies = () =>{
     dispatch(addPopularMovies(json.results));
   }
   useEffect(()=>{
+    if(!popularMovies){
     getPopularMovies()
+    }
   },[]);
 }
 

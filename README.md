@@ -39,7 +39,11 @@
  - GPT Search Bar
  - Multi Language features in our app
  - Integrate GPT API
-
+ - fetched GPT MovieSuggestions from TMDB
+ - create gptSlice
+ - Reused MovieList component to make movie suggestion container
+ - Memoization
+ - .env file
 
 
 
