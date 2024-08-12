@@ -44,6 +44,7 @@
  - Reused MovieList component to make movie suggestion container
  - Memoization
  - .env file
+ - Make our site Responsive
 
 
 
